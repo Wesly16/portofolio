@@ -17,19 +17,8 @@ function Home2() {
             <p className="home-about-body">
               Students majoring in information systems who are interested and want to learn more about programming, project management and data analysis.
               <br />
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple"> Modern Javascript Library and Frameworks</b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              Has participated in self-study activities in the MSIB Program of the Ministry of Education, Culture, Research and Technology of Indonesia batch 4 by taking the field of Front-end web development.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
