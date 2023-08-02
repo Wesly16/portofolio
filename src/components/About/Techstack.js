@@ -2,7 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 
 import { DiJavascript, DiReact, DiCss3 } from "react-icons/di";
-import { SiHtml5, SiBootstrap } from "react-icons/si";
+import { SiHtml5, SiBootstrap, SiLaravel } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -18,6 +18,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript />
         <h2>Javascript</h2>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+        <h2>Laravel</h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />

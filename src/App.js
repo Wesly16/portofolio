@@ -4,12 +4,14 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
+import Certificate from "./components/Certificates/Certificate";
 import Footer from "./components/Footer";
-import Resume from "./components/Resume/ResumeNew";
+import Contacts from "./components/Contact/Contacts";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
+// import "./App.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -33,7 +35,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
-          <Route path="/resume" element={<Resume />} />
+          <Route path="/certificate" element={<Certificate />} />
+          <Route path="/contact" element={<Contacts />} />
+
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
